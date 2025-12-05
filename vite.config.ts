@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
   ],
+  base: '/nebula.com/',
   server: {
     watch: { usePolling: true, interval: 800 },
   },
