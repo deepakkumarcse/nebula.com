@@ -1,0 +1,21 @@
+
+> nebula-tech-solutions@1.0.0 dev
+> vite host=0.0.0.0 port=5173
+
+Re-optimizing dependencies because vite config has changed
+(!) Could not auto-determine entry point from rollupOptions or html files and there are no explicit optimizeDeps.include patterns. Skipping dependency pre-bundling.
+
+  VITE v5.4.21  ready in 232 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> nebula-tech-solutions@1.0.0 dev
+> vite 0.0.0.0
+
+(!) Could not auto-determine entry point from rollupOptions or html files and there are no explicit optimizeDeps.include patterns. Skipping dependency pre-bundling.
+
+  VITE v5.4.21  ready in 217 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
