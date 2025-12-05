@@ -11,25 +11,25 @@ const About = () => {
       name: 'Dr. Sarah Chen',
       role: 'CEO & Co-Founder',
       bio: 'Former VP of Engineering at a Fortune 500 tech company. PhD in Computer Science from MIT. 15+ years building scalable systems.',
-      image: '/assets/team-collaboration_variant_2.jpg',
+      image: `${import.meta.env.BASE_URL}/assets/team-collaboration_variant_2.jpg`,
     },
     {
       name: 'Marcus Rodriguez',
       role: 'CTO & Co-Founder',
       bio: 'AI/ML expert with background at Google Brain. Led development of multiple award-winning AI products. Stanford CS graduate.',
-      image: '/assets/ai-brain-network.jpg',
+      image: `${import.meta.env.BASE_URL}/assets/ai-brain-network.jpg`,
     },
     {
       name: 'Emily Watson',
       role: 'VP of Product',
       bio: 'Product visionary with 12+ years at leading SaaS companies. Expert in user-centric design and agile methodologies.',
-      image: '/assets/mobile-app-design_variant_2.jpg',
+      image: `${import.meta.env.BASE_URL}/assets/mobile-app-design_variant_2.jpg`,
     },
     {
       name: 'David Kim',
       role: 'VP of Engineering',
       bio: 'Full-stack architect specializing in cloud-native solutions. Previously led engineering teams at Amazon and Microsoft.',
-      image: '/assets/cloud-infrastructure_variant_1.jpg',
+      image: `${import.meta.env.BASE_URL}/assets/cloud-infrastructure_variant_1.jpg`,
     },
   ];
 
@@ -127,7 +127,7 @@ const About = () => {
             </div>
             <div className="relative">
               <img 
-                src="/assets/team-collaboration_variant_3.jpg" 
+                src={`${import.meta.env.BASE_URL}/assets/team-collaboration_variant_3.jpg`} 
                 alt="Our Team" 
                 className="rounded-2xl shadow-neon-lg"
               />

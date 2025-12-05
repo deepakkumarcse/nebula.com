@@ -22,7 +22,7 @@ const initialState: CaseStudy[] = [
       { label: 'Uptime', value: '99.99%' },
       { label: 'ROI Increase', value: '+45%' }
     ],
-    image: '/assets/data-analytics.jpg'
+    image: `${import.meta.env.BASE_URL}/assets/data-analytics.jpg`
   },
   {
     id: '2',
@@ -44,7 +44,7 @@ const initialState: CaseStudy[] = [
       { label: 'Migration Downtime', value: '0 hours' },
       { label: 'Security Score', value: 'A+' }
     ],
-    image: '/assets/security-shield.jpg'
+    image: `${import.meta.env.BASE_URL}/assets/security-shield.jpg`
   },
   {
     id: '3',
@@ -66,7 +66,7 @@ const initialState: CaseStudy[] = [
       { label: 'Satisfaction', value: '95%' },
       { label: 'Compliance', value: 'HIPAA' }
     ],
-    image: '/assets/mobile-app-design.jpg'
+    image: `${import.meta.env.BASE_URL}/assets/mobile-app-design.jpg`
   },
   {
     id: '4',
@@ -88,7 +88,7 @@ const initialState: CaseStudy[] = [
       { label: 'Order Value', value: '+50%' },
       { label: 'Peak Uptime', value: '99.9%' }
     ],
-    image: '/assets/mobile-app-design_variant_1.jpg'
+    image: `${import.meta.env.BASE_URL}/assets/mobile-app-design_variant_1.jpg`
   },
   {
     id: '5',
@@ -110,7 +110,7 @@ const initialState: CaseStudy[] = [
       { label: 'Speed Improvement', value: '+30%' },
       { label: 'Uptime', value: '99.95%' }
     ],
-    image: '/assets/team-collaboration.jpg'
+    image: `${import.meta.env.BASE_URL}/assets/team-collaboration.jpg`
   },
   {
     id: '6',
@@ -132,7 +132,7 @@ const initialState: CaseStudy[] = [
       { label: 'Availability', value: '99.99%' },
       { label: 'Downtime', value: '0 hours' }
     ],
-    image: '/assets/cloud-infrastructure.jpg'
+    image: `${import.meta.env.BASE_URL}/assets/cloud-infrastructure.jpg`
   }
 ];
 

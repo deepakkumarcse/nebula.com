@@ -40,7 +40,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(/assets/hero-nebula-background.jpg)',
+            backgroundImage: `url(${import.meta.env.BASE_URL}/assets/hero-nebula-background.jpg)`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -240,7 +240,7 @@ const Index = () => {
             </div>
             <div className="relative">
               <img 
-                src="/assets/team-collaboration.jpg" 
+                src={`${import.meta.env.BASE_URL}/assets/team-collaboration.jpg`} 
                 alt="Team Collaboration" 
                 className="rounded-2xl shadow-neon-lg"
               />

@@ -157,7 +157,7 @@ const AIGenAI = () => {
             </div>
             <div className="relative">
               <img 
-                src="/assets/ai-brain-network_variant_1.jpg" 
+                src={`${import.meta.env.BASE_URL}/assets/ai-brain-network_variant_1.jpg `}
                 alt="AI Neural Network" 
                 className="rounded-2xl shadow-neon-lg"
               />

@@ -19,7 +19,7 @@ const App = () => (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
-        <BrowserRouter>
+        <BrowserRouter basename="/nebula.com">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />

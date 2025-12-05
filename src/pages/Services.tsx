@@ -105,12 +105,12 @@ const Services = () => {
                         <div className="relative h-64 lg:h-auto">
                           <img 
                             src={
-                              service.category === 'Backend' ? '/assets/code-development.jpg' :
-                              service.category === 'Frontend' ? '/assets/mobile-app-design.jpg' :
-                              service.category === 'Design' ? '/assets/mobile-app-design_variant_1.jpg' :
-                              service.category === 'AI' ? '/assets/ai-brain-network.jpg' :
-                              service.category === 'Infrastructure' ? '/assets/cloud-infrastructure.jpg' :
-                              '/assets/data-analytics.jpg'
+                              service.category === 'Backend' ? `${import.meta.env.BASE_URL}/assets/code-development.jpg` :
+                              service.category === 'Frontend' ? `${import.meta.env.BASE_URL}/assets/mobile-app-design.jpg` :
+                              service.category === 'Design' ? `${import.meta.env.BASE_URL}/assets/mobile-app-design_variant_1.jpg` :
+                              service.category === 'AI' ? `${import.meta.env.BASE_URL}/assets/ai-brain-network.jpg` :
+                              service.category === 'Infrastructure' ? `${import.meta.env.BASE_URL}/assets/cloud-infrastructure.jpg` :
+                              `${import.meta.env.BASE_URL}/assets/data-analytics.jpg`
                             }
                             alt={service.title}
                             className="absolute inset-0 w-full h-full object-cover"
